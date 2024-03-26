@@ -1,0 +1,17 @@
+ * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .mycontainer {
+        width: 100%;
+      }
+      .mycontainer div {
+        width: 33.3%;
+        /* display: inline-block; */
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        margin-right: -34px;
+      }

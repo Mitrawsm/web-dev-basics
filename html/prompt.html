@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Three Sections with Divs</title>
+		<style>
+			/* General styling */
+			body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f0f0f0;
+			}
+			.section {
+				display: flex;
+				justify-content: center;
+				height: 100vh;
+			}
+
+			.container {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				width: 70%;
+			}
+
+			.section1 {
+				display: flex;
+			}
+
+			.container1 {
+				display: flex;
+				width: 950px;
+				margin: 20px auto;
+				padding: 20px;
+			}
+
+			.box {
+				width: 600px;
+				height: 400px;
+				background-color: #3498db;
+				margin: 10px;
+				border-radius: 5px;
+				text-align: center;
+				line-height: 370px;
+				color: white;
+				font-weight: bold;
+				transition: transform 0.3s ease;
+				margin-right: 10px;
+			}
+			/* Hover effect */
+			.box:hover {
+				transform: scale(1.1);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="section1">
+			<div class="container1">
+				<div class="box">Div 1</div>
+				<div class="box">Div 2</div>
+				<div class="box">Div 3</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="box">Div 4</div>
+				<div class="box">Div 5</div>
+				<div class="box">Div 6</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="box">Div 7</div>
+				<div class="box">Div 8</div>
+				<div class="box">Div 9</div>
+			</div>
+		</div>
+
+		<script>
+			// Add JavaScript for any interactive elements
+			// For example, you can add a click event to each div
+			const boxes = document.querySelectorAll(".box");
+			boxes.forEach((box) => {
+				box.addEventListener("click", () => {
+					alert(`You clicked ${box.innerText}`);
+				});
+			});
+		</script>
+	</body>
+</html>
