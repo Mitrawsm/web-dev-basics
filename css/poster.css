@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Slackside+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(3, 28, 255, 0.431),
+      rgba(26, 49, 197, 0.396)
+    ),
+    url(/images/table.jpg);
+  background-size: contain;
+  width: 100vw;
+  height: 97vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #ffff;
+  font-family: "Slackside One", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+div {
+  text-align: center;
+  background-color: rgba(41, 5, 103, 0.287);
+
+  /* border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid; */
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 430px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+li {
+  list-style: none;
+  background-color: white;
+  border-radius: 20px;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+  margin: 15px;
+  padding: 15px;
+}
+
+p {
+  color: black;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  /* border: 2px solid; */
+  border-radius: 20px;
+  width: 270px;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
