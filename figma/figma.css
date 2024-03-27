@@ -381,3 +381,13 @@ footer {
 		font-variation-settings: "wght" 100;
 	}
 }
+
+
+@media screen and (min-width:400px) and (max-width:800px) {
+
+	body{
+		background-color: #355834;
+		color: #A6A57A;
+	}
+	
+}
